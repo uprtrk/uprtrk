@@ -90,7 +90,6 @@ def banner() -> None:
     <g class="wave1" opacity=".16">
       <path d="M0 274 Q75 262 150 274 T300 274 T450 274 T600 274 T750 274 T900 274 T1050 274 T1200 274 T1350 274 T1500 274 T1650 274 T1800 274 V300 H0Z" fill="{C1}"/>
     </g>
-    <text class="fade" x="64" y="84" font-family="{MONO}" font-size="14" letter-spacing="4" fill="{MUTED}">HELLO, I'M</text>
     <text class="fade" style="animation-delay:.15s" x="60" y="152" font-family="{SANS}" font-size="76" font-weight="800" fill="url(#title)">uprtrk</text>
     <svg x="64" y="172" width="450" height="30" class="type">
       <text x="0" y="21" font-family="{MONO}" font-size="17" fill="{TEXT}"><tspan fill="{C1}">$</tspan> python · telegram bots · scrapers · websites</text>
