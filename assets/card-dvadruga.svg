@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="220" viewBox="0 0 440 220">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2e2e2e" stop-opacity=".55"/><stop offset=".6" stop-color="#141414"/><stop offset="1" stop-color="#0a0a0a"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" x2="1"><stop offset="0" stop-color="#cfcfcf"/><stop offset="1" stop-color="#cfcfcf" stop-opacity="0"/></linearGradient>
+    <style>.sh { animation: sh 3.5s ease-in-out infinite; } @keyframes sh { 0%,100% { opacity:.5 } 50% { opacity:1 } }</style>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 .09 0"/></filter>
+  </defs>
+  <rect x=".5" y=".5" width="439" height="219" rx="14" fill="url(#g)" stroke="#2a2a2a"/>
+  <rect class="sh" x="1" y="216" width="438" height="3" rx="1.5" fill="url(#bar)"/>
+  <circle cx="30" cy="30" r="5" fill="#cfcfcf"/>
+  <text x="44" y="35" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="12" fill="#8a8a8a">github.com/uprtrk</text>
+  <text x="24" y="76" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#f2f2f2">Dva Druga</text>
+  <text x="24" y="99" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" fill="#cfcfcf">Yacht cleaning in the Bay of Kotor</text>
+  <text x="24" y="124" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" fill="#8a8a8a">› Live · 2druga.netlify.app</text><text x="24" y="146" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" fill="#8a8a8a">› 8 pages, local SEO</text>
+  <rect x="24" y="176" width="46" height="24" rx="6" fill="#cfcfcf" fill-opacity=".12" stroke="#cfcfcf" stroke-opacity=".35"/><text x="47" y="192" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="12" fill="#cfcfcf" text-anchor="middle">HTML</text><rect x="77.6" y="176" width="38" height="24" rx="6" fill="#cfcfcf" fill-opacity=".12" stroke="#cfcfcf" stroke-opacity=".35"/><text x="97" y="192" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="12" fill="#cfcfcf" text-anchor="middle">CSS</text><rect x="123.8" y="176" width="31" height="24" rx="6" fill="#cfcfcf" fill-opacity=".12" stroke="#cfcfcf" stroke-opacity=".35"/><text x="139" y="192" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="12" fill="#cfcfcf" text-anchor="middle">JS</text>
+  <rect x="1" y="1" width="438" height="218" rx="14" filter="url(#grain)"/>
+</svg>
