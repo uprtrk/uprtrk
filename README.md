@@ -1,4 +1,4 @@
-### Hi, I'm uprtrk 👋
+###uprtrk 👋
 
 **Python & Web developer.** I build Telegram bots, scrapers and automation tools, and websites for small businesses. Based in Montenegro, open to freelance work.
 
