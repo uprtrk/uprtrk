@@ -14,6 +14,7 @@
 |---|---|---|
 | [**Flip Tracker**](https://github.com/uprtrk/flip-tracker) | Finds underpriced electronics to resell in Montenegro: crawls classifieds + Telegram chats, recognises the exact model, builds a price reference, sends the best finds to Telegram every morning. 384 test checks. | Python · SQLite · Telethon · Claude Batch API |
 | [**Translator website**](https://github.com/uprtrk/translator-hn) | Three-language site for a translator in Herceg Novi: editorial design, contact form without a backend, JSON-LD, hreflang sitemap. | Next.js 16 · TypeScript · Tailwind v4 · next-intl |
+| [**Dva Druga**](https://github.com/uprtrk/dvadruga-site) · [live](https://2druga.netlify.app) | Three-language site for a yacht cleaning service in the Bay of Kotor: city landing pages, LocalBusiness JSON-LD, no build step. | HTML · CSS · JS · Netlify |
 | [**FitnessBot**](https://t.me/TreningTraker_bot) | Workout diary bot: live workout logging, personal records, charts, templates, Premium via Telegram Stars. *Live bot, code private.* | aiogram 3 · SQLAlchemy 2 · PostgreSQL · Alembic · Docker |
 
 #### Tech
